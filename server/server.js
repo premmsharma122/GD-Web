@@ -86,11 +86,11 @@ app.use((err, req, res, next) => {
   });
 });
 
-// MongoDB connection
-mongoose
-  .connect(process.env.MONGO_URI)
-  .then(() => console.log("✅ MongoDB Connected"))
-  .catch((err) => console.error("❌ MongoDB connection error:", err));
+// // MongoDB connection
+// mongoose
+//   .connect(process.env.MONGO_URI)
+//   .then(() => console.log("✅ MongoDB Connected"))
+//   .catch((err) => console.error("❌ MongoDB connection error:", err));
 
 // Initialize Socket.IO
 const io = new Server(server, {
