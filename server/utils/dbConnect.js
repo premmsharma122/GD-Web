@@ -9,11 +9,12 @@ if (!cached) {
 
 async function dbConnect() {
   if (cached.conn) {
+    console.log('Using cached database connection.');
     return cached.conn;
   }
   if (!cached.promise) {
     if (!process.env.MONGO_URI) {
-      throw new Error('MONGO_URI not defined in environment variables');
+      throw new Error('MONGO_URI is not defined in environment variables');
     }
 
     const opts = {
@@ -21,10 +22,16 @@ async function dbConnect() {
     };
 
     cached.promise = mongoose.connect(process.env.MONGO_URI, opts).then((mongoose) => {
+      console.log('New database connection established.');
       return mongoose;
     });
   }
-  cached.conn = await cached.promise;
+  try {
+    cached.conn = await cached.promise;
+  } catch (e) {
+    cached.promise = null;
+    throw e;
+  }
   return cached.conn;
 }
 
