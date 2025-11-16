@@ -9,7 +9,7 @@ export default function AnalysisReport({ roomId, userName, speakingTime, audioBl
   const [feedback, setFeedback] = useState(null);
   const [transcriptId, setTranscriptId] = useState(null);
 
-  const SERVER_URL = import.meta.env.VITE_SERVER_URL || 'http://localhost:5000';
+  const SERVER_URL = import.meta.env.VITE_SERVER_URL || 'https://gd-web-rose.vercel.app/';
 
   const startAnalysis = async () => {
     try {
