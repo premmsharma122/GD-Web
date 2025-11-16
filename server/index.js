@@ -63,7 +63,7 @@ app.use((err, req, res, next) => {
 // Initialize Socket.IO
 const io = new Server(server, {
   cors: {
-    origin: process.env.CLIENT_ORIGIN || "http://localhost:5173",
+    origin: process.env.CLIENT_ORIGIN || "https://wonderful-dasik-d7b0f9.netlify.app",
     methods: ["GET", "POST"],
     credentials: true,
   },
