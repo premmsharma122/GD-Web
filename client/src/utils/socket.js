@@ -1,7 +1,7 @@
 
 import { io } from "socket.io-client";
 
-const SOCKET_URL = import.meta.env.VITE_SERVER_URL || "https://gd-web-rose.vercel.app/";
+const SOCKET_URL = import.meta.env.BACKEND_BASE_URL || "https://gd-web-rose.vercel.app/";
 
 const socket = io(SOCKET_URL, {
   withCredentials: true,
