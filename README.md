@@ -3,7 +3,7 @@ A full-stack, real-time web application designed to simulate placement interview
 GD-APP helps students improve communication, participation, and clarity through live transcription, automated analytics, and personalized insights.
 ##  🚀 Overview
 -  GD-APP enables users to:
--  Join real-time group discussions
+-  Join real-time group discussions 
 -  Speak using microphone (WebRTC / Browser Audio Capture)
 -  Get live speech-to-text (STT) using AssemblyAI
 -  Receive an automatic communication analysis report
@@ -98,6 +98,7 @@ npm install
 MONGO_URI=your_mongo_url
 ASSEMBLYAI_API_KEY=your_key
 PORT=5000
+
 ```
 **Start Backend**
 ```powershell
