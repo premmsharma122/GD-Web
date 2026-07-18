@@ -4,7 +4,7 @@ import axios from 'axios';
 
 // Define the Vercel Backend URL here
 // NOTE: This URL must be updated if your Vercel domain changes.
-const BACKEND_BASE_URL = 'https://gd-web-rose.vercel.app'; 
+const BACKEND_BASE_URL = 'https://gd-web-0cv6.onrender.com'; 
 
 const HomePage = () => {
   const [message, setMessage] = useState('');

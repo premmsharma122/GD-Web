@@ -4,7 +4,7 @@ import axios from 'axios';
 
 // Define the Vercel Backend URL here
 // Use the deployed domain for the API calls
-const BACKEND_BASE_URL = 'https://gd-web-rose.vercel.app'; 
+const BACKEND_BASE_URL = 'https://gd-web-0cv6.onrender.com'; 
 
 const JoinRoom = () => {
   const [roomId, setRoomId] = useState('');
