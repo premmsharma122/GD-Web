@@ -1,4 +1,4 @@
-#  GD-APP: AI-Powered Group Discussion & Placement Simulator
+#  GD-APP: AI-Powered Group Discussion & Placement Simulator 
 A full-stack, real-time web application designed to simulate placement interviews, group discussions (GD), and feedback sessions using AI-driven speech analysis.
 GD-APP helps students improve communication, participation, and clarity through live transcription, automated analytics, and personalized insights.
 ##  🚀 Overview
