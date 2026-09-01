@@ -15,7 +15,7 @@ GD-APP helps students improve communication, participation, and clarity through 
 -  Measure speaking time, participation rate, and clarity
 -  Enable students to practice confidently before placements
 -  Allow institutions to conduct GD simulation sessions online
-##  🌟 Benefits
+##  🌟 Benefits 
 **✔ For Students**
 Real GD practice anytime
 Instant feedback
