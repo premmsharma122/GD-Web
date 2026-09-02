@@ -5,7 +5,7 @@ GD-APP helps students improve communication, participation, and clarity through 
 -  GD-APP enables users to:
 -  Join real-time group discussions 
 -  Speak using microphone (WebRTC / Browser Audio Capture)
--  Get live speech-to-text (STT) using AssemblyAI
+-  Get live speech-to-text (STT) using AssemblyAI 
 -  Receive an automatic communication analysis report
 -  View charts for contribution and speaking patterns
 -  Improve through targeted feedback based on performance
