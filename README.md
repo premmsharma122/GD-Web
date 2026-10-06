@@ -7,7 +7,7 @@
 ![STT](https://img.shields.io/badge/STT-AssemblyAI-orange)
 ![Status](https://img.shields.io/badge/Status-Hackathon%20Build-purple)
 
-**🔗 Live Demo:** [Deployed Link](https://wonderful-dasik-d7b0f9.netlify.app) | **🎥 Demo Video:** `coming soon..` | **📊 Pitch Deck:** `<add-link>`
+**🔗 Live Demo:** [Deployed Link](https://wonderful-dasik-d7b0f9.netlify.app) | **🎥 Demo Video:** `coming soon..` 
 
 ---
 
