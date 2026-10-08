@@ -288,7 +288,5 @@ Objective, repeatable GD practice for every student, and zero-effort evaluation 
 
 ---
 
-## 📜 License
-MIT. See `LICENSE`.
 
 ⭐ If you like this project, star the repo!
